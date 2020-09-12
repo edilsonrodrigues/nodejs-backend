@@ -1,0 +1,40 @@
+{
+    "name": "parse-server-example",
+    "version": "1.4.0",
+    "description": "An example Parse API server using the parse-server module",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ParsePlatform/parse-server-example"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "bcryptjs": "^2.4.3",
+        "cron": "^1.7.2",
+        "dotenv": "^8.2.0",
+        "dotenv-safe": "^8.1.0",
+        "esm": "^3.2.25",
+        "express": "~4.11.x",
+        "express-http-proxy": "^1.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "kerberos": "~0.0.x",
+        "md5": "^2.2.1",
+        "mongoose": "^5.9.9",
+        "nodemailer": "^6.3.0",
+        "parse": "~1.8.0",
+        "parse-dashboard": "^2.0.5",
+        "parse-server": "*",
+        "ucfirst": "^1.0.0"
+    },
+    "scripts": {
+        "start": "nodemon server.js",
+        "dashboard": "nodemon dashboard.js"
+    },
+    "engines": {
+        "node": ">=4.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
