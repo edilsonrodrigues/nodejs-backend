@@ -15,7 +15,6 @@ npm i
 npm start
 ```
 
-
 ## Request examples
 
 Open [http://localhost:8002](http://localhost:8002)
