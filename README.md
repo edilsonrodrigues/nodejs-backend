@@ -1,7 +1,7 @@
 # nodejs backend template
 
 ## Config files (make it before run the application)
-#### make an copy from this files:
+#### Add your settings to these files:
 > .env
 
 ## Install!
